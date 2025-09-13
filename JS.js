@@ -3,7 +3,7 @@ const app = new PIXI.Application({
   view: document.getElementById("live2d"),
   transparent: true,
 });
-PIXI.live2d.Live2DModel.from("March7th/march7th.model3.json").then(model => {
+PIXI.live2d.Live2DModel.from("March7/March7.model3.json").then(model => {
   model.scale.set(0.3);
   model.x = 100;
   model.y = 400;
@@ -35,3 +35,4 @@ async function ask() {
   // Gợi ý trigger motion (nếu model có animation)
   // if (model.motion) model.motion("tap");
 }
+
