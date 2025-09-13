@@ -9,7 +9,7 @@ const app = new PIXI.Application({
 });
 
 // Load model từ thư mục March7
-PIXI.live2d.Live2DModel.from("March7/march7.model3.json").then(model => {
+PIXI.live2d.Live2DModel.from("March7/March7.model3.json").then(model => {
   model.scale.set(0.3);   // chỉnh size nhỏ lại
   model.x = 100;          // vị trí ngang
   model.y = 400;          // vị trí dọc
@@ -70,3 +70,4 @@ async function ask() {
   // Reset input
   input.value = "";
 }
+
